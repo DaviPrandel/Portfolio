@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nova Flat", system-ui;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: rgb(19, 17, 17);
+    color: white;
+}
+
+.principal {
+    display: flex;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 2em;
+    margin-left: 100px;
+}
+
+
+.destaque {
+    color: rgb(122, 15, 122);
+}
+
+p {
+    font-size: 1.1em;
+    margin-top: 10px;
+    margin-left: 100px;
+    text-align: justify;
+}
+
+.botoes {
+   margin-top: 30px;
+   margin-left: 100px; 
+}
+
+.botao {
+    padding: 10px 20px; 
+    margin-right: 20px; 
+    background-color: rgb(122, 15, 122); 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 1.35em;
+}
+
+a{
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.botao:hover {
+    background-color: #1294a5; 
+}
+
+.div-esq {
+    margin-top: 1em;
+    text-align: left;
+    justify-content: space-between;
+    padding: 40px;
+    width: 50%;
+}
+
+.div-imagem {
+    width: 50%;
+}
+
+img {
+    margin-left: 10em;
+    transform: translateY(5%);
+    width: 25vw;
+    height: 30vw;
+}
